@@ -3,6 +3,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import TodoItem from './TodoItem';
+import './TodoItem.module.css';
 
 class TodosList extends React.Component {
   render() {
@@ -10,6 +11,7 @@ class TodosList extends React.Component {
       <ul>
         {this.props.todos.map((todo) => (
           <TodoItem
+            className="abc"
             key={todo.id}
             todo={todo}
             handleChangeProps={this.props.handleChangeProps}

@@ -27,3 +27,13 @@
   padding: 10px;
   border: 1px solid #dfdfdf;
 }
+
+.form-container {
+  text-align: center !important;
+  margin: auto !important;
+}
+
+.abc {
+  margin: auto;
+  width: 40%;
+}

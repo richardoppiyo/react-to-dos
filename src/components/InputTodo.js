@@ -3,6 +3,7 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/state-in-constructor */
 import React, { Component } from 'react';
+import './TodoItem.module.css';
 
 class InputTodo extends Component {
   state = {
@@ -38,7 +39,7 @@ class InputTodo extends Component {
           name="title"
           onChange={this.onChange}
         />
-        <button className="input-submit">Submit</button>
+        <button type="button" className="input-submit">Submit</button>
       </form>
     );
   }
